@@ -1,36 +1,68 @@
-body {
-  background-color: #8455a8;
+* {
+  font-family: cursive;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-html {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+body {
+  background-color: #8455a8;
+  padding: 10px 40px;
 }
 
 h1 {
   color: #0f0;
 }
 
-h3 {
+/* ul {
+  list-style: none;
+  /* NOTE --> descomentar cuando se descomente el (dipley flex)
+} */
+
+ul h3 {
   color: #f70071;
 }
 
+ol {
+  padding: 10px 40px;
+}
+
+ol li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 a {
-  color: black;
   text-decoration: none;
 }
 
-a:hover {
-  color: blue;
+a button {
+  border-radius: 10px;
+  background-color: #0f0;
+  color: black;
+  font-weight: bold;
+  border: none;
+  width: 100px;
+  padding: 3px;
+}
+
+a button:hover {
+  color: #f70071;
+  box-shadow: 0 0 10px 3px #0b0;
+  /* NOTE --> box-shadow: [desplazamiento horizontal] [desplazamiento vertical] [desenfoque] [dispersión opcional] [color]; */
 }
 
 img {
   width: 100px;
+  filter: drop-shadow(0px 0px 20px rgb(109, 19, 49));
 }
 
-/* .lista {
-  display: flex;
+.lista {
+  padding: 10px 40px;
+  /* display: flex;
   flex-wrap: wrap;
-} */
+  /* NOTE --> descomentar cuando ya se haya entendido la etiqueta de (displey flex) */
+}
 
 .lista_categoria {
   width: 15%;
