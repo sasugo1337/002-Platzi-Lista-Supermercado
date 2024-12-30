@@ -12,19 +12,22 @@ body {
 
 h1 {
   color: #0f0;
+  text-align: center;
 }
 
-/* ul {
+ul {
   list-style: none;
-  /* NOTE --> descomentar cuando se descomente la etiqueta de (dipley flex)
-} */
+}
 
 ul h3 {
   color: #f70071;
+  text-align: center;
 }
 
 ol {
+  text-align: center;
   padding: 10px 40px;
+  list-style: none;
 }
 
 ol li {
@@ -58,12 +61,12 @@ img {
 }
 
 .lista {
-  margin: auto;
-  width: 400px; /* NOTE --> quitar esta linea de codigo cuando se active la etiqueta de (displey flex)*/
-  padding: 40px 40px 10px 40px;
-  /* display: flex;
-  flex-wrap: wrap;*/
-  /* NOTE --> descomentar cuando ya se haya entendido la etiqueta de (displey flex) */
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  border: solid 2px black;
 }
 
 .lista_categoria {
@@ -73,20 +76,10 @@ img {
 
 .div_1 {
   margin: auto;
-  width: 400px;
-  height: 50px;
+  max-width: 400px;
   background-color: #8455a8;
   border-radius: 20px;
   border: solid 2px black;
   position: relative;
   bottom: -25px;
-}
-
-.div_2 {
-  margin: auto;
-  width: 1000px;
-  height: 2000px;
-  border-radius: 20px;
-  border: solid 2px black;
-  /* NOTE --> revisar como arreglar esto en un futuro */
 }
