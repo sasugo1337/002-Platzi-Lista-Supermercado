@@ -16,7 +16,7 @@ h1 {
 
 /* ul {
   list-style: none;
-  /* NOTE --> descomentar cuando se descomente el (dipley flex)
+  /* NOTE --> descomentar cuando se descomente la etiqueta de (dipley flex)
 } */
 
 ul h3 {
@@ -58,13 +58,35 @@ img {
 }
 
 .lista {
-  padding: 10px 40px;
+  margin: auto;
+  width: 400px; /* NOTE --> quitar esta linea de codigo cuando se active la etiqueta de (displey flex)*/
+  padding: 40px 40px 10px 40px;
   /* display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;*/
   /* NOTE --> descomentar cuando ya se haya entendido la etiqueta de (displey flex) */
 }
 
 .lista_categoria {
   width: 15%;
   min-width: 200px;
+}
+
+.div_1 {
+  margin: auto;
+  width: 400px;
+  height: 50px;
+  background-color: #8455a8;
+  border-radius: 20px;
+  border: solid 2px black;
+  position: relative;
+  bottom: -25px;
+}
+
+.div_2 {
+  margin: auto;
+  width: 1000px;
+  height: 2000px;
+  border-radius: 20px;
+  border: solid 2px black;
+  /* NOTE --> revisar como arreglar esto en un futuro */
 }
