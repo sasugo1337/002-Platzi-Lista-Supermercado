@@ -1,13 +1,14 @@
 * {
-  font-family: cursive;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 body {
+  font-size: 16px;
+  font-family: cursive;
   background-color: #8455a8;
-  padding: 10px 40px;
+  padding: 0.625rem 2.5rem;
 }
 
 h1 {
@@ -26,13 +27,13 @@ ul h3 {
 
 ol {
   text-align: center;
-  padding: 10px 40px;
+  padding: 0.625rem 2.5rem;
   list-style: none;
 }
 
 ol li {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
 }
 
 a {
@@ -40,46 +41,46 @@ a {
 }
 
 a button {
-  border-radius: 10px;
+  border-radius: 0.625rem;
   background-color: #0f0;
   color: black;
   font-weight: bold;
   border: none;
-  width: 100px;
-  padding: 3px;
+  width: 6.25rem;
+  padding: 0.1875rem;
 }
 
 a button:hover {
   color: #f70071;
-  box-shadow: 0 0 10px 3px #0b0;
+  box-shadow: 0 0 0.625rem 0.1875rem #0b0;
   /* NOTE --> box-shadow: [desplazamiento horizontal] [desplazamiento vertical] [desenfoque] [dispersión opcional] [color]; */
 }
 
 img {
-  width: 100px;
-  filter: drop-shadow(0px 0px 20px rgb(109, 19, 49));
+  width: 6.25rem;
+  filter: drop-shadow(0 0 1.25rem rgb(109, 19, 49));
 }
 
 .lista {
-  padding: 40px;
+  padding: 2.5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  border-radius: 20px;
-  border: solid 3px black;
+  border-radius: 1.25rem;
+  border: solid 0.1875rem black;
 }
 
 .lista_categoria {
   width: 15%;
-  min-width: 200px;
+  min-width: 12.5rem;
 }
 
 .div_1 {
   margin: auto;
-  max-width: 400px;
+  max-width: 25rem;
   background-color: #8455a8;
-  border-radius: 20px;
-  border: solid 3px black;
+  border-radius: 1.25rem;
+  border: solid 0.1875rem black;
   position: relative;
-  bottom: -25px;
+  bottom: -1.5625rem;
 }
