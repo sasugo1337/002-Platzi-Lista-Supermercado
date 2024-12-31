@@ -66,7 +66,7 @@ img {
   flex-wrap: wrap;
   justify-content: space-evenly;
   border-radius: 20px;
-  border: solid 2px black;
+  border: solid 3px black;
 }
 
 .lista_categoria {
@@ -79,7 +79,7 @@ img {
   max-width: 400px;
   background-color: #8455a8;
   border-radius: 20px;
-  border: solid 2px black;
+  border: solid 3px black;
   position: relative;
   bottom: -25px;
 }
