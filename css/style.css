@@ -5,10 +5,13 @@
 }
 
 body {
-  font-size: 16px;
-  font-family: cursive;
   background-color: #8455a8;
   padding: 0.625rem 2.5rem;
+}
+
+html {
+  font-family: cursive;
+  font-size: 16px;
 }
 
 h1 {
