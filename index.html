@@ -1,256 +1,320 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="description"
-      content="Esta pagina te mostrara una lista de compras"
-    />
-    <meta name="robots" content="index,follow" />
-    <meta name="viewport" content="width=device-width, inictial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lista Supermercado</title>
     <link rel="icon" href="img/carrito_supermercado.png" type="image/x-icon" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link
+      rel="stylesheet"
+      href="css/tablet.css"
+      media="screen and (min-width: 480px)"
+    />
+    <link
+      rel="stylesheet"
+      href="css/desktop.css"
+      media="screen and (min-width: 800px)"
+    />
   </head>
   <body>
-    <div class="div_1">
+    <div class="titulo">
       <h1>Lista Supermercado</h1>
     </div>
-    <main>
-      <ul class="lista">
-        <li class="lista_categoria">
-          <h3>Frutas</h3>
-          <ol>
-            <li>
-              <a
-                target="_blank"
-                href="https://www.google.com/search?q=recetas+con+manzana&sca_esv=9fb916b4b9a6ef27&rlz=1C1CHZN_esCO929CO929&ei=tDRzZ9_WGe2OwbkP4tLsiAg&ved=0ahUKEwjfgNi32tCKAxVtRzABHWIpG4EQ4dUDCBA&uact=5&oq=recetas+con+manzana&gs_lp=Egxnd3Mtd2l6LXNlcnAiE3JlY2V0YXMgY29uIG1hbnphbmEyBRAAGIAEMgUQABiABDILEAAYgAQYkQIYigUyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESJtlUKEDWMgmcAJ4AZABAJgBiAGgAbMGqgEDMC43uAEDyAEA-AEBmAIJoALmBsICChAAGLADGNYEGEfCAgYQABgHGB6YAwCIBgGQBgiSBwMyLjegB68x&sclient=gws-wiz-serp"
-              >
-                <figure>
-                  <img src="img/manzana.png" alt="Manzana" title="Manzana" />
-                  <figcaption>
-                    <button>Manzana</button>
-                  </figcaption>
-                </figure>
-              </a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                href="https://www.google.com/search?q=recetas+con+pera&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=5zRzZ6XOGL2QwbkP8fLeuQQ&ved=0ahUKEwjl3f_P2tCKAxU9SDABHXG5N0cQ4dUDCBA&uact=5&oq=recetas+con+pera&gs_lp=Egxnd3Mtd2l6LXNlcnAiEHJlY2V0YXMgY29uIHBlcmEyBhAAGAcYHjIGEAAYBxgeMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBBAAGB4yBBAAGB4yBBAAGB5Ivh9QtwdYtRNwAXgBkAEAmAGqA6AB2giqAQkwLjMuMC4xLjG4AQPIAQD4AQGYAgSgAoADwgIKEAAYsAMY1gQYR8ICCBAAGAcYChgemAMAiAYBkAYIkgcDMS4zoAfCJA&sclient=gws-wiz-serp"
-              >
-                <figure>
-                  <img src="img/pera.png" alt="Pera" title="Pera" />
-                  <figcaption>
-                    <button>Pera</button>
-                  </figcaption>
-                </figure>
-              </a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                href="https://www.google.com/search?q=recetas+con+banano&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=CzVzZ9fEN_PtkvQPjrelgAo&ved=0ahUKEwiX9rPh2tCKAxXztoQIHY5bCaAQ4dUDCBA&uact=5&oq=recetas+con+banano&gs_lp=Egxnd3Mtd2l6LXNlcnAiEnJlY2V0YXMgY29uIGJhbmFubzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBBAAGB4yBBAAGB4yBBAAGB5Ijk1QjAZYuBFwAXgBkAEAmAGGAaAB8QGqAQMwLjK4AQPIAQD4AQGYAgOgAosCwgIKEAAYsAMY1gQYR8ICBxAAGIAEGA3CAgYQABgNGB6YAwCIBgGQBgiSBwMxLjKgB_sM&sclient=gws-wiz-serp"
-              >
-                <figure>
-                  <img src="img/banano.png" alt="Banano" title="Banano" />
-                  <figcaption>
-                    <button>Banano</button>
-                  </figcaption>
-                </figure>
-              </a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                href="https://www.google.com/search?q=recetas+con+pi%C3%B1a&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=TDVzZ4T4AvvMwbkPm7_PoAE&ved=0ahUKEwiEzv7_2tCKAxV7ZjABHZvfExQQ4dUDCBA&uact=5&oq=recetas+con+pi%C3%B1a&gs_lp=Egxnd3Mtd2l6LXNlcnAiEXJlY2V0YXMgY29uIHBpw7FhMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB5I4iNQ2ARY3hpwAXgBkAEAmAGOAaABiAmqAQQwLjEwuAEDyAEA-AEBmAILoALCCcICChAAGLADGNYEGEeYAwCIBgGQBgiSBwQxLjEwoAfjNg&sclient=gws-wiz-serp"
-              >
-                <figure>
-                  <img src="img/piña.png" alt="Piña" title="Piña" />
-                  <figcaption>
-                    <button>Piña</button>
-                  </figcaption>
-                </figure>
-              </a>
-            </li>
-          </ol>
-        </li>
-        <li class="lista_categoria">
-          <h3>Verduras</h3>
-          <ol>
-            <li>
-              <a
-                target="_blank"
-                href="https://www.google.com/search?q=recetas+con+br%C3%B3coli&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=pDVzZ_GDBu-awbkPt-Ww0Q4&ved=0ahUKEwjx5fyp29CKAxVvTTABHbcyLOoQ4dUDCBA&uact=5&oq=recetas+con+br%C3%B3coli&gs_lp=Egxnd3Mtd2l6LXNlcnAiFHJlY2V0YXMgY29uIGJyw7Njb2xpMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgQQABgeSIkZUPoHWMUScAF4AZABAJgBkQGgAYIFqgEDMC41uAEDyAEA-AEBmAIGoAKpBcICChAAGLADGNYEGEfCAgYQABgHGB7CAggQABgHGAoYHpgDAIgGAZAGCJIHAzEuNaAH5CU&sclient=gws-wiz-serp"
-              >
-                <figure>
-                  <img src="img/brócoli.png" alt="Brócoli" title="Brócoli" />
-                  <figcaption>
-                    <button>Brócoli</button>
-                  </figcaption>
-                </figure>
-              </a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                href="https://www.google.com/search?q=recetas+con+espinaca&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=zzVzZ4TtLNb8wbkP6eDqkQ4&ved=0ahUKEwjEkOS-29CKAxVWfjABHWmwOuIQ4dUDCBA&uact=5&oq=recetas+con+espinaca&gs_lp=Egxnd3Mtd2l6LXNlcnAiFHJlY2V0YXMgY29uIGVzcGluYWNhMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEj0QVCVBFirN3ABeAGQAQCYAYsBoAHnCKoBBDAuMTC4AQPIAQD4AQGYAgugAqYJwgIKEAAYsAMY1gQYR8ICBhAAGBYYHpgDAIgGAZAGCJIHBDEuMTCgB5c6&sclient=gws-wiz-serp"
-              >
-                <figure>
-                  <img src="img/espinaca.png" alt="Espinaca" title="Espinaca" />
-                  <figcaption>
-                    <button>Espinaca</button>
-                  </figcaption>
-                </figure>
-              </a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                href="https://www.google.com/search?q=recetas+con+berenjena&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=zzVzZ4TtLNb8wbkP6eDqkQ4&oq=recetas+con+bere&gs_lp=Egxnd3Mtd2l6LXNlcnAiEHJlY2V0YXMgY29uIGJlcmUqAggAMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEiYG1CyAVjsEHABeAGQAQCYAXigAasHqgEDMi43uAEDyAEA-AEBmAIKoALrB8ICChAAGLADGNYEGEfCAgYQABgWGB6YAwCIBgGQBgiSBwMyLjigB5A1&sclient=gws-wiz-serp"
-              >
-                <figure>
-                  <img
-                    src="img/berenjena.png"
-                    alt="Berenjena"
-                    title="Berenjena"
-                  />
-                  <figcaption>
-                    <button>Berenjena</button>
-                  </figcaption>
-                </figure>
-              </a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                href="https://www.google.com/search?q=recetas+con+r%C3%A1bano&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=7zZzZ9-lH_eQwbkPiN_a8AI&ved=0ahUKEwif2YDI3NCKAxV3SDABHYivFi4Q4dUDCBA&uact=5&oq=recetas+con+r%C3%A1bano&gs_lp=Egxnd3Mtd2l6LXNlcnAiE3JlY2V0YXMgY29uIHLDoWJhbm8yBRAAGIAEMgUQABiABDIEEAAYHjIEEAAYHjIEEAAYHjIEEAAYHjIEEAAYHjIGEAAYCBgeMgYQABgIGB4yBhAAGAgYHkjTGFDlBFjhCHABeAGQAQCYAZkBoAGNAqoBAzAuMrgBA8gBAPgBAZgCA6ACnQLCAgoQABiwAxjWBBhHwgIHEAAYgAQYDcICBhAAGA0YHpgDAIgGAZAGCJIHAzEuMqAHgw0&sclient=gws-wiz-serp"
-              >
-                <figure>
-                  <img src="img/rábano.png" alt="Rábano" title="Rábano" />
-                  <figcaption>
-                    <button>Rábano</button>
-                  </figcaption>
-                </figure>
-              </a>
-            </li>
-          </ol>
-        </li>
-        <li class="lista_categoria">
-          <h3>Carnes</h3>
-          <ol>
-            <li>
-              <a
-                target="_blank"
-                href="https://www.google.com/search?q=recetas+con+costilla&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=IjdzZ_GBLqOFwbkPxNHFgQw&ved=0ahUKEwjxmrjg3NCKAxWjQjABHcRoMcAQ4dUDCBA&uact=5&oq=recetas+con+costilla&gs_lp=Egxnd3Mtd2l6LXNlcnAiFHJlY2V0YXMgY29uIGNvc3RpbGxhMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgQQABgeMgQQABgeMgQQABgeMgQQABgeSLUSUK4BWMwMcAF4AZABAJgBtQGgAYUFqgEDMC41uAEDyAEA-AEBmAIGoAKuBcICChAAGLADGNYEGEfCAgYQABgHGB7CAgkQABiABBgTGA3CAggQABgTGAcYHpgDAIgGAZAGCJIHAzEuNaAHwys&sclient=gws-wiz-serp"
-              >
-                <figure>
-                  <img src="img/costilla.png" alt="Costilla" title="Costilla" />
-                  <figcaption>
-                    <button>Costilla</button>
-                  </figcaption>
-                </figure>
-              </a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                href="https://www.google.com/search?q=recetas+con+bistec&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=JzdzZ-XQBMyrwbkP6bOgkQU&ved=0ahUKEwilgMDi3NCKAxXMVTABHekZKFIQ4dUDCBA&uact=5&oq=recetas+con+bistec&gs_lp=Egxnd3Mtd2l6LXNlcnAiEnJlY2V0YXMgY29uIGJpc3RlYzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIxENQngFY6zpwAXgBkAEAmAHHAaABpQ2qAQQxLjEzuAEDyAEA-AEBmAINoAKMC8ICChAAGLADGNYEGEfCAgUQABjvBZgDAIgGAZAGCJIHBDEuMTKgB_VQ&sclient=gws-wiz-serp"
-              >
-                <figure>
-                  <img src="img/bistec.png" alt="Bistec" title="Bistec" />
-                  <figcaption>
-                    <button>Bistec</button>
-                  </figcaption>
-                </figure>
-              </a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                href="https://www.google.com/search?q=recetas+con+pollo&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=lTdzZ-TZFqXQwbkPvcaj0As&ved=0ahUKEwik-IuX3dCKAxUlaDABHT3jCLoQ4dUDCBA&uact=5&oq=recetas+con+pollo&gs_lp=Egxnd3Mtd2l6LXNlcnAiEXJlY2V0YXMgY29uIHBvbGxvMgYQABgHGB4yBRAAGIAEMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgUQABiABDIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeSLoTUPEGWN4QcAF4AZABAJgBoAGgAcMFqgEDMC41uAEDyAEA-AEBmAIFoALUBMICChAAGLADGNYEGEeYAwCIBgGQBgiSBwMxLjSgB6Ql&sclient=gws-wiz-serp"
-              >
-                <figure>
-                  <img src="img/pollo.png" alt="Pollo" title="Pollo" />
-                  <figcaption>
-                    <button>Pollo</button>
-                  </figcaption>
-                </figure>
-              </a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                href="https://www.google.com/search?q=recetas+con+pescado&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=sjdzZ-vWDJiawbkP5sa52A0&ved=0ahUKEwjr9-uk3dCKAxUYTTABHWZjDtsQ4dUDCBA&uact=5&oq=recetas+con+pescado&gs_lp=Egxnd3Mtd2l6LXNlcnAiE3JlY2V0YXMgY29uIHBlc2NhZG8yBhAAGAcYHjIFEAAYgAQyBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeSLQYUIoHWLITcAF4AZABAJgBkwGgAcYEqgEDMC41uAEDyAEA-AEBmAIGoALxBMICChAAGLADGNYEGEeYAwCIBgGQBgiSBwMxLjWgB4Mm&sclient=gws-wiz-serp"
-              >
-                <figure>
-                  <img src="img/pescado.png" alt="Pescado" title="Pescado" />
-                  <figcaption>
-                    <button>Pescado</button>
-                  </figcaption>
-                </figure>
-              </a>
-            </li>
-          </ol>
-        </li>
-        <li class="lista_categoria">
-          <h3>Granos</h3>
-          <ol>
-            <li>
-              <a
-                target="_blank"
-                href="https://www.google.com/search?q=recetas+con+caf%C3%A9&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=CzhzZ4DMJIGVwbkPv-LH2AU&ved=0ahUKEwjA_bvP3dCKAxWBSjABHT_xEVsQ4dUDCBA&uact=5&oq=recetas+con+caf%C3%A9&gs_lp=Egxnd3Mtd2l6LXNlcnAiEXJlY2V0YXMgY29uIGNhZsOpMgUQABiABDIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgUQABiABDIEEAAYHjIEEAAYHjIEEAAYHjIEEAAYHkjXHFDYB1j8GXACeAGQAQCYAYIBoAHFBaoBAzAuNrgBA8gBAPgBAZgCCKAC-QXCAgoQABiwAxjWBBhHmAMAiAYBkAYIkgcDMi42oAeRKA&sclient=gws-wiz-serp"
-              >
-                <figure>
-                  <img src="img/café.png" alt="Café" title="Café" />
-                  <figcaption>
-                    <button>Café</button>
-                  </figcaption>
-                </figure>
-              </a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                href="https://www.google.com/search?q=recetas+con+trigo&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=PThzZ8SyLZGYwbkP69qnQA&ved=0ahUKEwiExbDn3dCKAxURTDABHWvtCQgQ4dUDCBA&uact=5&oq=recetas+con+trigo&gs_lp=Egxnd3Mtd2l6LXNlcnAiEXJlY2V0YXMgY29uIHRyaWdvMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgQQABgeMgQQABgeMgQQABgeMgQQABgeSPEoUOEDWJ4gcAF4AZABAJgBkAGgAc0GqgEDMC43uAEDyAEA-AEBmAIHoAL6BcICChAAGLADGNYEGEfCAggQABgTGAcYHsICCRAAGIAEGBMYDcICBhAAGAcYHpgDAIgGAZAGCJIHAzEuNqAHlTI&sclient=gws-wiz-serp"
-              >
-                <figure>
-                  <img src="img/trigo.png" alt="Trigo" title="Trigo" />
-                  <figcaption>
-                    <button>Trigo</button>
-                  </figcaption>
-                </figure>
-              </a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                href="https://www.google.com/search?q=recetas+con+arroz&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=XDhzZ-SnHr6EwbkPoLTv4QY&ved=0ahUKEwjkxYX23dCKAxU-QjABHSDaO2wQ4dUDCBA&uact=5&oq=recetas+con+arroz&gs_lp=Egxnd3Mtd2l6LXNlcnAiEXJlY2V0YXMgY29uIGFycm96MgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIFEAAYgAQyBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHki4GVCIBVioEXABeAGQAQCYAXegAbEEqgEDMC41uAEDyAEA-AEBmAIGoALbBMICChAAGLADGNYEGEeYAwCIBgGQBgiSBwMxLjWgB-El&sclient=gws-wiz-serp"
-              >
-                <figure>
-                  <img src="img/arroz.png" alt="Arroz" title="Arroz" />
-                  <figcaption>
-                    <button>Arroz</button>
-                  </figcaption>
-                </figure>
-              </a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                href="https://www.google.com/search?q=recetas+con+frijol&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=fDhzZ-m4CaqEkvQPjJDzsAk&ved=0ahUKEwjp5pGF3tCKAxUqgoQIHQzIHJYQ4dUDCBA&uact=5&oq=recetas+con+frijol&gs_lp=Egxnd3Mtd2l6LXNlcnAiEnJlY2V0YXMgY29uIGZyaWpvbDIFEAAYgAQyBhAAGAcYHjIGEAAYBxgeMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEiIEVDLAViGDXABeAGQAQCYAdsCoAGaB6oBBzAuNC4wLjG4AQPIAQD4AQGYAgWgAvEEwgIKEAAYsAMY1gQYR8ICBxAAGIAEGA2YAwCIBgGQBgiSBwMxLjSgB4kn&sclient=gws-wiz-serp"
-              >
-                <figure>
-                  <img src="img/frijol.png" alt="Frijol" title="Frijol" />
-                  <figcaption>
-                    <button>Frijol</button>
-                  </figcaption>
-                </figure>
-              </a>
-            </li>
-          </ol>
-        </li>
-      </ul>
+    <main class="lista">
+      <div class="lista_categoria"><h2>Frutas</h2></div>
+      <div class="contenedor contenedor_left">
+        <div class="img">
+          <a
+            target="_blank"
+            href="https://www.google.com/search?q=recetas+con+manzana&sca_esv=9fb916b4b9a6ef27&rlz=1C1CHZN_esCO929CO929&ei=tDRzZ9_WGe2OwbkP4tLsiAg&ved=0ahUKEwjfgNi32tCKAxVtRzABHWIpG4EQ4dUDCBA&uact=5&oq=recetas+con+manzana&gs_lp=Egxnd3Mtd2l6LXNlcnAiE3JlY2V0YXMgY29uIG1hbnphbmEyBRAAGIAEMgUQABiABDILEAAYgAQYkQIYigUyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESJtlUKEDWMgmcAJ4AZABAJgBiAGgAbMGqgEDMC43uAEDyAEA-AEBmAIJoALmBsICChAAGLADGNYEGEfCAgYQABgHGB6YAwCIBgGQBgiSBwMyLjegB68x&sclient=gws-wiz-serp"
+          >
+            <img src="img/manzana.png" alt="Manzana" title="Manzana" />
+          </a>
+        </div>
+        <div class="texto">
+          <p>
+            <h3>Manzana</h3>
+            Fruta dulce y crujiente con variedad de colores como rojo, verde y
+            amarillo. Es rica en fibra, vitamina C y antioxidantes, ayudando a
+            la digestión y fortaleciendo el sistema inmune.
+          </p>
+        </div>
+      </div>
+      <div class="contenedor contenedor_right">
+        <div class="img">
+          <a
+            target="_blank"
+            href="https://www.google.com/search?q=recetas+con+pera&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=5zRzZ6XOGL2QwbkP8fLeuQQ&ved=0ahUKEwjl3f_P2tCKAxU9SDABHXG5N0cQ4dUDCBA&uact=5&oq=recetas+con+pera&gs_lp=Egxnd3Mtd2l6LXNlcnAiEHJlY2V0YXMgY29uIHBlcmEyBhAAGAcYHjIGEAAYBxgeMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBBAAGB4yBBAAGB4yBBAAGB5Ivh9QtwdYtRNwAXgBkAEAmAGqA6AB2giqAQkwLjMuMC4xLjG4AQPIAQD4AQGYAgSgAoADwgIKEAAYsAMY1gQYR8ICCBAAGAcYChgemAMAiAYBkAYIkgcDMS4zoAfCJA&sclient=gws-wiz-serp"
+          >
+            <img src="img/pera.png" alt="Pera" title="Pera" />
+          </a>
+        </div>
+        <div class="texto">
+          <p>
+            <h3>Pera</h3>
+            Fruta jugosa y suave con un sabor dulce, rica en agua, fibra y
+            vitaminas C y K. Es ideal para hidratarse, mejorar la digestión y
+            mantener una piel saludable.
+          </p>
+        </div>
+      </div>
+      <div class="contenedor contenedor_left">
+        <div class="img">
+          <a
+            target="_blank"
+            href="https://www.google.com/search?q=recetas+con+banano&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=CzVzZ9fEN_PtkvQPjrelgAo&ved=0ahUKEwiX9rPh2tCKAxXztoQIHY5bCaAQ4dUDCBA&uact=5&oq=recetas+con+banano&gs_lp=Egxnd3Mtd2l6LXNlcnAiEnJlY2V0YXMgY29uIGJhbmFubzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBBAAGB4yBBAAGB4yBBAAGB5Ijk1QjAZYuBFwAXgBkAEAmAGGAaAB8QGqAQMwLjK4AQPIAQD4AQGYAgOgAosCwgIKEAAYsAMY1gQYR8ICBxAAGIAEGA3CAgYQABgNGB6YAwCIBgGQBgiSBwMxLjKgB_sM&sclient=gws-wiz-serp"
+          >
+            <img src="img/banano.png" alt="Banano" title="Banano" />
+          </a>
+        </div>
+        <div class="texto">
+          <p>
+            <h3>Banano</h3>
+            Fruta tropical de textura suave y sabor dulce, conocida por su alto
+            contenido de potasio. Es una fuente rápida de energía, favorece la
+            salud muscular y es perfecta para consumir en desayunos o como
+            snack.
+          </p>
+        </div>
+      </div>
+      <div class="contenedor contenedor_right">
+        <div class="img">
+          <a
+            target="_blank"
+            href="https://www.google.com/search?q=recetas+con+pi%C3%B1a&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=TDVzZ4T4AvvMwbkPm7_PoAE&ved=0ahUKEwiEzv7_2tCKAxV7ZjABHZvfExQQ4dUDCBA&uact=5&oq=recetas+con+pi%C3%B1a&gs_lp=Egxnd3Mtd2l6LXNlcnAiEXJlY2V0YXMgY29uIHBpw7FhMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB5I4iNQ2ARY3hpwAXgBkAEAmAGOAaABiAmqAQQwLjEwuAEDyAEA-AEBmAILoALCCcICChAAGLADGNYEGEeYAwCIBgGQBgiSBwQxLjEwoAfjNg&sclient=gws-wiz-serp"
+          >
+            <img src="img/piña.png" alt="Piña" title="Piña" />
+          </a>
+        </div>
+        <div class="texto">
+          <p>
+            <h3>Piña</h3>
+            Fruta tropical con sabor dulce y ligeramente ácido, rica en vitamina
+            C, manganeso y bromelina, una enzima que facilita la digestión. Se
+            consume fresca, en jugos o en platos dulces y salados.
+          </p>
+        </div>
+      </div>
+      <div class="lista_categoria"><h2>Verduras</h2></div>
+      <div class="contenedor contenedor_left">
+        <div class="img">
+          <a
+            target="_blank"
+            href="https://www.google.com/search?q=recetas+con+br%C3%B3coli&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=pDVzZ_GDBu-awbkPt-Ww0Q4&ved=0ahUKEwjx5fyp29CKAxVvTTABHbcyLOoQ4dUDCBA&uact=5&oq=recetas+con+br%C3%B3coli&gs_lp=Egxnd3Mtd2l6LXNlcnAiFHJlY2V0YXMgY29uIGJyw7Njb2xpMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgQQABgeSIkZUPoHWMUScAF4AZABAJgBkQGgAYIFqgEDMC41uAEDyAEA-AEBmAIGoAKpBcICChAAGLADGNYEGEfCAgYQABgHGB7CAggQABgHGAoYHpgDAIgGAZAGCJIHAzEuNaAH5CU&sclient=gws-wiz-serp"
+          >
+            <img src="img/brócoli.png" alt="Brócoli" title="Brócoli" />
+          </a>
+        </div>
+        <div class="texto">
+          <p>
+            <h3>Brócoli</h3>
+            Vegetal crucífero de color verde, conocido por sus beneficios
+            antioxidantes y su contenido de fibra, vitaminas C y K. Es excelente
+            para fortalecer el sistema inmune y cuidar la salud ósea.
+          </p>
+        </div>
+      </div>
+      <div class="contenedor contenedor_right">
+        <div class="img">
+          <a
+            target="_blank"
+            href="https://www.google.com/search?q=recetas+con+espinaca&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=zzVzZ4TtLNb8wbkP6eDqkQ4&ved=0ahUKEwjEkOS-29CKAxVWfjABHWmwOuIQ4dUDCBA&uact=5&oq=recetas+con+espinaca&gs_lp=Egxnd3Mtd2l6LXNlcnAiFHJlY2V0YXMgY29uIGVzcGluYWNhMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEj0QVCVBFirN3ABeAGQAQCYAYsBoAHnCKoBBDAuMTC4AQPIAQD4AQGYAgugAqYJwgIKEAAYsAMY1gQYR8ICBhAAGBYYHpgDAIgGAZAGCJIHBDEuMTCgB5c6&sclient=gws-wiz-serp"
+          >
+            <img src="img/espinaca.png" alt="Espinaca" title="Espinaca" />
+          </a>
+        </div>
+        <div class="texto">
+          <p>
+            <h3>Espinaca</h3>
+            Hoja verde oscura, rica en hierro, calcio, ácido fólico y vitaminas
+            A y K. Ayuda a prevenir la anemia, fortalecer los huesos y mantener
+            una buena salud ocular. Es ideal en ensaladas o guisados.
+          </p>
+        </div>
+      </div>
+      <div class="contenedor contenedor_left">
+        <div class="img">
+          <a
+            target="_blank"
+            href="https://www.google.com/search?q=recetas+con+berenjena&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=zzVzZ4TtLNb8wbkP6eDqkQ4&oq=recetas+con+bere&gs_lp=Egxnd3Mtd2l6LXNlcnAiEHJlY2V0YXMgY29uIGJlcmUqAggAMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEiYG1CyAVjsEHABeAGQAQCYAXigAasHqgEDMi43uAEDyAEA-AEBmAIKoALrB8ICChAAGLADGNYEGEfCAgYQABgWGB6YAwCIBgGQBgiSBwMyLjigB5A1&sclient=gws-wiz-serp"
+          >
+            <img src="img/berenjena.png" alt="Berenjena" title="Berenjena" />
+          </a>
+        </div>
+        <div class="texto">
+          <p>
+            <h3> Berenjena</h3>
+            Vegetal morado de textura suave al cocinar, bajo en calorías y rico
+            en antioxidantes, fibra y minerales. Su versatilidad la hace ideal
+            para platos como lasañas, guisos o asados.
+          </p>
+        </div>
+      </div>
+      <div class="contenedor contenedor_right">
+        <div class="img">
+          <a
+            target="_blank"
+            href="https://www.google.com/search?q=recetas+con+r%C3%A1bano&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=7zZzZ9-lH_eQwbkPiN_a8AI&ved=0ahUKEwif2YDI3NCKAxV3SDABHYivFi4Q4dUDCBA&uact=5&oq=recetas+con+r%C3%A1bano&gs_lp=Egxnd3Mtd2l6LXNlcnAiE3JlY2V0YXMgY29uIHLDoWJhbm8yBRAAGIAEMgUQABiABDIEEAAYHjIEEAAYHjIEEAAYHjIEEAAYHjIEEAAYHjIGEAAYCBgeMgYQABgIGB4yBhAAGAgYHkjTGFDlBFjhCHABeAGQAQCYAZkBoAGNAqoBAzAuMrgBA8gBAPgBAZgCA6ACnQLCAgoQABiwAxjWBBhHwgIHEAAYgAQYDcICBhAAGA0YHpgDAIgGAZAGCJIHAzEuMqAHgw0&sclient=gws-wiz-serp"
+          >
+            <img src="img/rábano.png" alt="Rábano" title="Rábano" />
+          </a>
+        </div>
+        <div class="texto">
+          <p>
+            <h3>Rábano</h3>
+            Raíz pequeña y crujiente de sabor ligeramente picante, rica en
+            vitamina C, potasio y antioxidantes. Es ideal para ensaladas frescas
+            y aporta un toque de sabor único.
+          </p>
+        </div>
+      </div>
+      <div class="lista_categoria"><h2>Carnes</h2></div>
+      <div class="contenedor contenedor_left">
+        <div class="img">
+          <a
+            target="_blank"
+            href="https://www.google.com/search?q=recetas+con+costilla&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=IjdzZ_GBLqOFwbkPxNHFgQw&ved=0ahUKEwjxmrjg3NCKAxWjQjABHcRoMcAQ4dUDCBA&uact=5&oq=recetas+con+costilla&gs_lp=Egxnd3Mtd2l6LXNlcnAiFHJlY2V0YXMgY29uIGNvc3RpbGxhMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgQQABgeMgQQABgeMgQQABgeMgQQABgeSLUSUK4BWMwMcAF4AZABAJgBtQGgAYUFqgEDMC41uAEDyAEA-AEBmAIGoAKuBcICChAAGLADGNYEGEfCAgYQABgHGB7CAgkQABiABBgTGA3CAggQABgTGAcYHpgDAIgGAZAGCJIHAzEuNaAHwys&sclient=gws-wiz-serp"
+          >
+            <img src="img/costilla.png" alt="Costilla" title="Costilla" />
+          </a>
+        </div>
+        <div class="texto">
+          <p>
+            <h3>Costilla</h3>
+            Corte de carne que incluye hueso, conocido por su jugosidad y sabor
+            intenso. Es una fuente importante de proteínas y grasas, perfecta
+            para asar o cocinar a fuego lento en guisos.
+          </p>
+        </div>
+      </div>
+      <div class="contenedor contenedor_right">
+        <div class="img">
+          <a
+            target="_blank"
+            href="https://www.google.com/search?q=recetas+con+bistec&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=JzdzZ-XQBMyrwbkP6bOgkQU&ved=0ahUKEwilgMDi3NCKAxXMVTABHekZKFIQ4dUDCBA&uact=5&oq=recetas+con+bistec&gs_lp=Egxnd3Mtd2l6LXNlcnAiEnJlY2V0YXMgY29uIGJpc3RlYzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgARIxENQngFY6zpwAXgBkAEAmAHHAaABpQ2qAQQxLjEzuAEDyAEA-AEBmAINoAKMC8ICChAAGLADGNYEGEfCAgUQABjvBZgDAIgGAZAGCJIHBDEuMTKgB_VQ&sclient=gws-wiz-serp"
+          >
+            <img src="img/bistec.png" alt="Bistec" title="Bistec" />
+          </a>
+        </div>
+        <div class="texto">
+          <p>
+            <h3>Bistec</h3>
+            Corte de carne roja magra o marmoleada, rico en proteínas, hierro y
+            vitaminas del grupo B. Es un alimento esencial para ganar energía y
+            mantener una dieta balanceada.
+          </p>
+        </div>
+      </div>
+      <div class="contenedor contenedor_left">
+        <div class="img">
+          <a
+            target="_blank"
+            href="https://www.google.com/search?q=recetas+con+pollo&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=lTdzZ-TZFqXQwbkPvcaj0As&ved=0ahUKEwik-IuX3dCKAxUlaDABHT3jCLoQ4dUDCBA&uact=5&oq=recetas+con+pollo&gs_lp=Egxnd3Mtd2l6LXNlcnAiEXJlY2V0YXMgY29uIHBvbGxvMgYQABgHGB4yBRAAGIAEMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgUQABiABDIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeSLoTUPEGWN4QcAF4AZABAJgBoAGgAcMFqgEDMC41uAEDyAEA-AEBmAIFoALUBMICChAAGLADGNYEGEeYAwCIBgGQBgiSBwMxLjSgB6Ql&sclient=gws-wiz-serp"
+          >
+            <img src="img/pollo.png" alt="Pollo" title="Pollo" />
+          </a>
+        </div>
+        <div class="texto">
+          <p>
+            <h3>Pollo</h3>
+            Carne blanca versátil, baja en grasas y rica en proteínas. Es ideal
+            para una dieta equilibrada y puede prepararse de múltiples formas
+            como asada, a la plancha o en sopas.
+          </p>
+        </div>
+      </div>
+      <div class="contenedor contenedor_right">
+        <div class="img">
+          <a
+            target="_blank"
+            href="https://www.google.com/search?q=recetas+con+pescado&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=sjdzZ-vWDJiawbkP5sa52A0&ved=0ahUKEwjr9-uk3dCKAxUYTTABHWZjDtsQ4dUDCBA&uact=5&oq=recetas+con+pescado&gs_lp=Egxnd3Mtd2l6LXNlcnAiE3JlY2V0YXMgY29uIHBlc2NhZG8yBhAAGAcYHjIFEAAYgAQyBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeSLQYUIoHWLITcAF4AZABAJgBkwGgAcYEqgEDMC41uAEDyAEA-AEBmAIGoALxBMICChAAGLADGNYEGEeYAwCIBgGQBgiSBwMxLjWgB4Mm&sclient=gws-wiz-serp"
+          >
+            <img src="img/pescado.png" alt="Pescado" title="Pescado" />
+          </a>
+        </div>
+        <div class="texto">
+          <p>
+            <h3>Pescado</h3>
+            Alimento rico en proteínas de alta calidad, ácidos grasos omega-3 y
+            vitaminas como la D. Contribuye a la salud del corazón, del cerebro
+            y a la reducción de la inflamación.
+          </p>
+        </div>
+      </div>
+      <div class="lista_categoria"><h2>Granos</h2></div>
+      <div class="contenedor contenedor_left">
+        <div class="img">
+          <a
+            target="_blank"
+            href="https://www.google.com/search?q=recetas+con+caf%C3%A9&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=CzhzZ4DMJIGVwbkPv-LH2AU&ved=0ahUKEwjA_bvP3dCKAxWBSjABHT_xEVsQ4dUDCBA&uact=5&oq=recetas+con+caf%C3%A9&gs_lp=Egxnd3Mtd2l6LXNlcnAiEXJlY2V0YXMgY29uIGNhZsOpMgUQABiABDIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgUQABiABDIEEAAYHjIEEAAYHjIEEAAYHjIEEAAYHkjXHFDYB1j8GXACeAGQAQCYAYIBoAHFBaoBAzAuNrgBA8gBAPgBAZgCCKAC-QXCAgoQABiwAxjWBBhHmAMAiAYBkAYIkgcDMi42oAeRKA&sclient=gws-wiz-serp"
+          >
+            <img src="img/café.png" alt="Café" title="Café" />
+          </a>
+        </div>
+        <div class="texto">
+          <p>
+            <h3>Café</h3>
+            Bebida aromática y estimulante preparada a partir de granos
+            tostados. Es una fuente rica en antioxidantes, que mejora la
+            concentración y aporta energía al inicio del día.
+          </p>
+        </div>
+      </div>
+      <div class="contenedor contenedor_right">
+        <div class="img">
+          <a
+            target="_blank"
+            href="https://www.google.com/search?q=recetas+con+trigo&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=PThzZ8SyLZGYwbkP69qnQA&ved=0ahUKEwiExbDn3dCKAxURTDABHWvtCQgQ4dUDCBA&uact=5&oq=recetas+con+trigo&gs_lp=Egxnd3Mtd2l6LXNlcnAiEXJlY2V0YXMgY29uIHRyaWdvMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgQQABgeMgQQABgeMgQQABgeMgQQABgeSPEoUOEDWJ4gcAF4AZABAJgBkAGgAc0GqgEDMC43uAEDyAEA-AEBmAIHoAL6BcICChAAGLADGNYEGEfCAggQABgTGAcYHsICCRAAGIAEGBMYDcICBhAAGAcYHpgDAIgGAZAGCJIHAzEuNqAHlTI&sclient=gws-wiz-serp"
+          >
+            <img src="img/trigo.png" alt="Trigo" title="Trigo" />
+          </a>
+        </div>
+        <div class="texto">
+          <p>
+            <h3>Trigo</h3>
+            Cereal integral que es base de harinas, panes y pastas. Rico en
+            carbohidratos, vitaminas del grupo B y minerales, es fundamental
+            para obtener energía y mantener una dieta balanceada.
+          </p>
+        </div>
+      </div>
+      <div class="contenedor contenedor_left">
+        <div class="img">
+          <a
+            target="_blank"
+            href="https://www.google.com/search?q=recetas+con+arroz&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=XDhzZ-SnHr6EwbkPoLTv4QY&ved=0ahUKEwjkxYX23dCKAxU-QjABHSDaO2wQ4dUDCBA&uact=5&oq=recetas+con+arroz&gs_lp=Egxnd3Mtd2l6LXNlcnAiEXJlY2V0YXMgY29uIGFycm96MgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIFEAAYgAQyBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHki4GVCIBVioEXABeAGQAQCYAXegAbEEqgEDMC41uAEDyAEA-AEBmAIGoALbBMICChAAGLADGNYEGEeYAwCIBgGQBgiSBwMxLjWgB-El&sclient=gws-wiz-serp"
+          >
+            <img src="img/arroz.png" alt="Arroz" title="Arroz" />
+          </a>
+        </div>
+        <div class="texto">
+          <p>
+            <h3>Arroz</h3>
+            Cereal versátil y nutritivo, fuente de carbohidratos complejos y
+            energía. Es un acompañamiento esencial en muchas culturas, con
+            variedades como blanco, integral o jazmín.
+          </p>
+        </div>
+      </div>
+      <div class="contenedor contenedor_right">
+        <div class="img">
+          <a
+            target="_blank"
+            href="https://www.google.com/search?q=recetas+con+frijol&sca_esv=247a3cc0ba513c42&rlz=1C1CHZN_esCO929CO929&ei=fDhzZ-m4CaqEkvQPjJDzsAk&ved=0ahUKEwjp5pGF3tCKAxUqgoQIHQzIHJYQ4dUDCBA&uact=5&oq=recetas+con+frijol&gs_lp=Egxnd3Mtd2l6LXNlcnAiEnJlY2V0YXMgY29uIGZyaWpvbDIFEAAYgAQyBhAAGAcYHjIGEAAYBxgeMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEiIEVDLAViGDXABeAGQAQCYAdsCoAGaB6oBBzAuNC4wLjG4AQPIAQD4AQGYAgWgAvEEwgIKEAAYsAMY1gQYR8ICBxAAGIAEGA2YAwCIBgGQBgiSBwMxLjSgB4kn&sclient=gws-wiz-serp"
+          >
+            <img src="img/frijol.png" alt="Frijol" title="Frijol" />
+          </a>
+        </div>
+        <div class="texto">
+          <p>
+            <h3>Frijol</h3>
+            Legumbre rica en proteínas, fibra, hierro y minerales esenciales. Es
+            una excelente fuente de energía vegetal, ideal para guisos, sopas y
+            como acompañamiento.
+          </p>
+        </div>
+      </div>
     </main>
   </body>
 </html>
