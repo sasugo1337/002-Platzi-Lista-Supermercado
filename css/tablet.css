@@ -1,0 +1,25 @@
+img {
+  width: 9rem;
+}
+
+.img {
+  width: 9.375rem;
+  height: 9.375rem;
+}
+
+.texto {
+  font-size: 1.1rem;
+  height: 9.375rem;
+}
+
+/* .contenedor {
+  flex-direction: row;
+} */
+
+.contenedor_left {
+  flex-direction: row-reverse;
+}
+
+.contenedor_right {
+  flex-direction: row;
+}
