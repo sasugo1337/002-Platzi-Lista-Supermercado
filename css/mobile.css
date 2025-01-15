@@ -16,13 +16,7 @@
 }
 
 body {
-  background-color: red;
-  /* background: linear-gradient(
-    45deg,
-    var(--dark_blue),
-    var(--light_blue),
-    var(--light_green)
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(45deg, var(--dark_blue), var(--light_blue), var(--light_green)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 0.625rem 2.5rem;
 }
 
