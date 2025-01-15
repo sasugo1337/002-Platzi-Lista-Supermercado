@@ -16,7 +16,8 @@
 }
 
 body {
-  background: linear-gradient(
+  background-color: red;
+  /* background: linear-gradient(
     45deg,
     var(--dark_blue),
     var(--light_blue),
